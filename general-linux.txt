@@ -1,0 +1,22 @@
+================
+debian systems
+================
+dpkg - package manager for Debian 
+dpkg is a tool to install, build, remove and manage Debian packages. The primary and more user-friendly front-end for 
+dpkg is aptitude. dpkg itself is  controlled entirely via command line parameters, which consist of exactly one action 
+and zero or more options. The action-parameter tells dpkg what to do and options control the behavior of the action in 
+some way. dpkg can also be used as a front-end to dpkg-deb and dpkg-query. The list of supported actions can be found 
+later on in the ACTIONS section. If any  such  action  is encountered dpkg just runs dpkg-deb or dpkg-query with the 
+parameters given to it, but no specific options are currently passed to them, to use any such option the back-ends need 
+to be called directly.
+--- list all packages -- dpkg -l
+
+
+-----------
+apt- apt provides a high-level commandline interface for the package management system. 
+It is intended as an end user interface and enables some options better suited for interactive usage by default 
+compared to more specialized APT tools like apt-get(8) and apt-cache(8).
+
+
+
+
