@@ -91,3 +91,113 @@ secret (ThisTokenIsNotSoSecretChangeIt):
 
 > Sensio\Bundle\DistributionBundle\Composer\ScriptHandler::installRequirementsFile
 > Sensio\Bundle\DistributionBundle\Composer\ScriptHandler::prepareDeploymentTarget
+
+===================================================
+
+Loading composer repositories with package information
+Updating dependencies (including require-dev)
+
+
+Package operations: 39 installs, 0 updates, 0 removals
+
+---------------------------------------------------------------------------------
+  - Installing symfony/polyfill-php70 (v1.14.0): Downloading (100%)         
+  - Installing symfony/polyfill-util (v1.14.0): Downloading (100%)         
+  - Installing symfony/polyfill-php56 (v1.14.0): Downloading (100%)         
+  - Installing symfony/polyfill-mbstring (v1.14.0): Loading from cache
+  - Installing symfony/polyfill-intl-icu (v1.14.0): Downloading (100%)         
+  - Installing symfony/polyfill-ctype (v1.14.0): Loading from cache
+  - Installing symfony/polyfill-apcu (v1.14.0): Downloading (100%)   
+----------------------------------------------------------------------------------
+  - Installing symfony/symfony (v3.4.37): Downloading (100%)   
+  - Installing symfony/phpunit-bridge (v3.4.37): Downloading (100%) 
+  - Installing symfony/monolog-bundle (v3.5.0): Downloading (100%)  
+  - Installing symfony/swiftmailer-bundle (v2.6.7): Downloading (100%)         
+----------------------------------------------------------------------------------
+  - Installing psr/simple-cache (1.0.1): Downloading (100%)         
+  - Installing psr/log (1.1.2): Loading from cache
+  - Installing psr/link (1.0.0): Downloading (100%)         
+  - Installing psr/container (1.0.0): Loading from cache
+  - Installing psr/cache (1.0.1): Downloading (100%)         
+----------------------------------------------------------------------------------
+  - Installing doctrine/cache (v1.6.2): Downloading (100%)         
+  - Installing doctrine/inflector (v1.1.0): Downloading (100%)          
+  - Installing doctrine/lexer (1.0.2): Downloading (100%)         
+  - Installing doctrine/annotations (v1.4.0): Downloading (100%)         
+  - Installing doctrine/collections (v1.4.0): Downloading (100%)         
+  - Installing doctrine/common (v2.7.3): Downloading (100%)         
+  - Installing doctrine/doctrine-cache-bundle (1.3.5): Downloading (100%)         
+  - Installing jdorn/sql-formatter (v1.2.17): Downloading (100%)         
+  - Installing doctrine/dbal (v2.5.13): Downloading (100%)         
+  - Installing doctrine/doctrine-bundle (1.10.3): Downloading (100%)         
+  - Installing doctrine/instantiator (1.0.5): Downloading (100%)         
+  - Installing doctrine/orm (v2.5.14): Downloading (100%)  
+------------------------------------------------------------------------------------   
+  - Installing incenteev/composer-parameter-handler (v2.1.3): Downloading (100%)         
+  - Installing composer/ca-bundle (1.2.6): Downloading (100%)         
+  - Installing monolog/monolog (1.25.3): Loading from cache
+------------------------------------------------------------------------------------       
+  - Installing swiftmailer/swiftmailer (v5.4.12): Downloading (100%)   
+  - Installing paragonie/random_compat (v2.0.18): Downloading (100%)       
+------------------------------------------------------------------------------------
+  - Installing sensiolabs/security-checker (v5.0.3): Downloading (100%)         
+  - Installing sensio/distribution-bundle (v5.0.25): Downloading (100%)         
+  - Installing sensio/framework-extra-bundle (v5.2.4): Downloading (100%)                
+  - Installing sensio/generator-bundle (v3.1.7): Downloading (100%)   
+------------------------------------------------------------------------------------  
+  - Installing twig/twig (v1.42.5): Downloading (100%)         
+  - Installing fig/link-util (1.1.0): Downloading (100%)  
+------------------------------------------------------------------------------------
+       
+paragonie/random_compat suggests installing ext-libsodium (Provides a modern crypto API that can be used to generate random bytes.)
+doctrine/doctrine-cache-bundle suggests installing symfony/security-acl (For using this bundle to cache ACLs)
+sensio/framework-extra-bundle suggests installing symfony/psr-http-message-bridge (To use the PSR-7 converters)
+monolog/monolog suggests installing graylog2/gelf-php (Allow sending log messages to a GrayLog2 server)
+monolog/monolog suggests installing sentry/sentry (Allow sending log messages to a Sentry server)
+monolog/monolog suggests installing doctrine/couchdb (Allow sending log messages to a CouchDB server)
+monolog/monolog suggests installing ruflin/elastica (Allow sending log messages to an Elastic Search server)
+monolog/monolog suggests installing php-amqplib/php-amqplib (Allow sending log messages to an AMQP server using php-amqplib)
+monolog/monolog suggests installing ext-amqp (Allow sending log messages to an AMQP server (1.0+ required))
+monolog/monolog suggests installing ext-mongo (Allow sending log messages to a MongoDB server)
+monolog/monolog suggests installing mongodb/mongodb (Allow sending log messages to a MongoDB server via PHP Driver)
+monolog/monolog suggests installing aws/aws-sdk-php (Allow sending log messages to AWS services like DynamoDB)
+monolog/monolog suggests installing rollbar/rollbar (Allow sending log messages to Rollbar)
+monolog/monolog suggests installing php-console/php-console (Allow sending log messages to Google Chrome)
+
+Package sensio/generator-bundle is abandoned, you should avoid using it. Use symfony/maker-bundle instead.
+
+Writing lock file
+Generating autoload files
+
+
+> Incenteev\ParameterHandler\ScriptHandler::buildParameters
+Creating the "app/config/parameters.yml" file
+Some parameters are missing. Please provide them.
+database_host (127.0.0.1): localhost
+database_port (null): 3306
+database_name (symfony): symfony
+database_user (root): root
+database_password (null): 123
+mailer_transport (smtp): 
+mailer_host (127.0.0.1): 
+mailer_user (null): cn22
+mailer_password (null): 000
+secret (ThisTokenIsNotSoSecretChangeIt): 
+> Sensio\Bundle\DistributionBundle\Composer\ScriptHandler::buildBootstrap
+> Sensio\Bundle\DistributionBundle\Composer\ScriptHandler::clearCache
+
+ // Clearing the cache for the dev environment with debug                       
+ // true                                                                        
+                                                                              
+ [OK] Cache for the "dev" environment (debug=true) was successfully cleared.    
+                                                                                
+> Sensio\Bundle\DistributionBundle\Composer\ScriptHandler::installAssets
+
+ Trying to install assets as relative symbolic links.
+                                                                            
+ [OK] No assets were provided by any bundle.                                    
+                                                                                
+> Sensio\Bundle\DistributionBundle\Composer\ScriptHandler::installRequirementsFile
+> Sensio\Bundle\DistributionBundle\Composer\ScriptHandler::prepareDeploymentTarget
+
+
